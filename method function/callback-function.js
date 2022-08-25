@@ -7,8 +7,8 @@ callback function.call = memanggil yang artinya memanggil sebuah function
 callback function yakni memanggil sebuah function ke dalam function baru dengan (MENGGUNAKAN ARGUMENT);
 
 */
-const printKen = () => {
-    console.log("Ninja Ken");
+const sayName = () => {
+    console.log("Fajar");
   };
   
   // Tambahkan parameter callback ke function call
@@ -19,7 +19,7 @@ const printKen = () => {
   };
   
   // Teruskan printKen sebagai argument dan jalankan function call
-  call(printKen );
+  call(sayName );
 
 
 
